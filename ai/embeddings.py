@@ -1,7 +1,7 @@
 # embeddings.py
 import os
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from config import GEMINI_API_KEY
+from ai.config import GEMINI_API_KEY
 from dotenv import load_dotenv
 
 load_dotenv()

@@ -3,7 +3,8 @@ import json
 from pathlib import Path
 
 
-FAQ_FILE = Path(__file__).resolve().parent / "data" / "faq.json"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+FAQ_FILE = PROJECT_ROOT / "data" / "faq.json"
 
 # Load FAQ data from faq.json
 def load_documents():

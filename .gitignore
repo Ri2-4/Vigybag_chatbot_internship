@@ -1,4 +1,24 @@
+# Environment variables
 .env
-vectorstore/
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+
+# Vector database
+vectorstore/
+chroma_db/
+
+# Chat history
+data/chat_history/
+
+# Test cache
+.pytest_cache/
+**/chat_history/

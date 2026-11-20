@@ -1,7 +1,8 @@
+#gemini.py
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_ollama import ChatOllama
 
-from config import GEMINI_API_KEY, GEMINI_MODEL
+from ai.config import GEMINI_API_KEY, GEMINI_MODEL
 
 
 # Create Gemini LLM

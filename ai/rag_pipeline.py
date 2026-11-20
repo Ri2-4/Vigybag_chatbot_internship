@@ -1,9 +1,9 @@
 import time
 import logging
-from retriever import retrieve_documents
-from prompt import build_prompt
-from llm import get_llm_response
-from memory import get_chat_history_string, save_chat_message
+from ai.retriever import retrieve_documents
+from ai.prompt import build_prompt
+from ai.llm import get_llm_response
+from ai.memory import get_chat_history_string, save_chat_message
 
 # Terminal logging config (Bina file write ke console log karega)
 logging.basicConfig(

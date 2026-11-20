@@ -1,8 +1,8 @@
 # retriever.py
 from langchain_chroma import Chroma
 
-from embeddings import get_embedding_model
-from ingest import COLLECTION_NAME, PERSIST_DIRECTORY
+from ai.embeddings import get_embedding_model
+from ai.ingest import COLLECTION_NAME, PERSIST_DIRECTORY
 
 
 # Retrieve similar documents from ChromaDB

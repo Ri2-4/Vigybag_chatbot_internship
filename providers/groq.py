@@ -1,6 +1,7 @@
+#groq.py
 from langchain_groq import ChatGroq
 
-from config import GROQ_API_KEY, GROQ_MODEL
+from ai.config import GROQ_API_KEY, GROQ_MODEL
 
 
 # Create Groq LLM

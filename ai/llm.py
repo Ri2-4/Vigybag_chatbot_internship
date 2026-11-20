@@ -1,7 +1,7 @@
 # llm.py
 import importlib
 
-from config import LLM_PRIORITY
+from ai.config import LLM_PRIORITY
 
 
 # Generate response using available providers
